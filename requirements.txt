@@ -1,0 +1,4 @@
+Flask
+sounddevice
+numpy
+scipy

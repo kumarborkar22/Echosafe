@@ -1,0 +1,40 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Flask App",
+			"type": "shell",
+			"command": "\"C:/Program Files/Python312/python.exe\" app.py",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [
+				"$python"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Run Flask App",
+			"type": "shell",
+			"command": "\"C:/Program Files/Python312/python.exe\"",
+			"args": [
+				"app.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$python"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Run Flask App",
+			"type": "shell",
+			"command": "& \"C:/Program Files/Python312/python.exe\" app.py",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [
+				"$python"
+			],
+			"group": "build"
+		}
+	]
+}
