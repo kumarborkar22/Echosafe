@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const fileInput = document.getElementById('audio-file');
             if (!fileInput.files.length) return;
             const formData = new FormData();
-            formData.append('audio', fileInput.files[0]);
+            formData.append('file', fileInput.files[0]);
             fetch('/upload', {
                 method: 'POST',
                 body: formData
